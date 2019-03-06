@@ -59,6 +59,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-#social{
+#social,.subscribe{
     text-align: right;
 }
