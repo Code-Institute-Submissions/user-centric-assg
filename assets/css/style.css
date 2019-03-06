@@ -1,3 +1,41 @@
-body{
-    background-color: red;
+#topmenu{
+    background-color:rgba(255,255,255,0.5);
+    background-image: url("../images/monkees.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height:500px;
+    padding:0;
+    /*margin:100px 0;*/
+}
+#menu{
+    background-color:rgba(255,255,255,0.5);
+    background-image: url("../images/band1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height:500px;
+    padding:0;
+    margin:100px 0;
+}
+#location{
+    background-color:rgba(0,0,0,0.5);
+    background-image: url("../images/band2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height:500px;
+    padding:0;
+    margin:100px 0;
+}
+.wrapper{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#call-to-action, #call-to-action1, #call-to-action2{
+    color:orange;
+    text-align: center
+}
+#social{
+    text-align: right;
 }
