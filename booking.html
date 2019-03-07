@@ -1,25 +1,22 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- fontawesome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Booking</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- fontawesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <title>Booking</title>
 </head>
-
 <body>
-    <header>
+  <header>
     <nav class="navbar ">
       <a class="navbar-brand" href="index.html">
     <img src="assets/images/themonkees-logo.jpg" alt="Logo" style="width:100px;">
   </a>
-
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link active" href="index.html">Home</a>
@@ -27,7 +24,6 @@
         <li class="nav-item">
           <a class="nav-link" href="media.html">Media</a>
         </li>
-         
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
@@ -39,19 +35,61 @@
     </div>
   </header>
   <main>
-       <img src="assets/images/bookpage.jpg" class="img-fluid" alt="Responsive image">
-       <section>
-         
-       </section>
-       
-  </main>
-  
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <img src="assets/images/bookpage.jpg" class="img-fluid" alt="Responsive image">
+    <section>
+      <div class="container">
+        <form>
+          <h3>Contact us at drrhino@rhino.com</h3>
+          First name:<br>
+          <input type="text" name="firstname">
+          <br> Last name:<br>
+          <input type="text" name="lastname">
+          <br> Email:<br>
+          <input type="email" name="email">
+          <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+              <label class="mr-sm-2" for="inlineFormCustomSelect">Purpose:</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="">Booking</option>
+        <option value="">Collaboration</option>
+      </select>
+     <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </section>
+</main>
+<footer>
+  <div id="social">
+  <a href="https://www.facebook.com/TheMonkees"><i class="fab fa-facebook-square fa-2x"></i></a>
+  <a href="https://twitter.com/TheMonkees"><i class="fab fa-twitter-square fa-2x"></i></a>
+  <a href="https://www.instagram.com/themonkees/"><i class="fab fa-instagram fa-2x"></i></a>
+  <a href="https://www.youtube.com/user/themonkees"><i class="fab fa-youtube fa-2x"></i></a>
+  <a href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fab fa-spotify fa-2x"></i></a>
+  </div>
+  <form class="subscribe" action="action_page.php">
+  <div class="container">
+    <p>Subscribe to our Newsletter:</p>
+  </div>
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Email address" name="mail" required>
+  </div>
+  <div class="container">
+    <br>
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+  <p>©2019 The Monkees</p>
+</footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>
