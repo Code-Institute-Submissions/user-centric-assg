@@ -62,3 +62,23 @@
 #social,.subscribe{
     text-align: right;
 }
+.para1,.para2,.para3{
+    margin:20px 20px 20px 20px;
+    line-height: 3;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+.header1{
+    margin:20px 20px 20px 20px;
+    text-transform: uppercase;
+}
+.card-title{
+    text-transform: uppercase;
+}
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+.aboutus,.card-deck,.card{
+    border: 2px solid #000000;
+}
