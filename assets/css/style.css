@@ -81,6 +81,7 @@
     text-transform: uppercase
 }
 .aboutus,.card-deck,.card{
+    border-radius: 25px;
     border: 1px solid #000000;
 }
 .contactus{
