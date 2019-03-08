@@ -78,10 +78,20 @@
 .nav-item{
     font-family: 'Roboto', sans-serif;
     font-size:20px;
+    text-transform: uppercase
 }
 .aboutus,.card-deck,.card{
     border: 2px solid #000000;
 }
 .contactus{
     margin:10px 10px 10px 10px;
+}
+.nav-item:hover{
+    border: 2px solid black;
+}
+.media1{
+     margin:20px 20px 20px 20px;
+}
+.btn:hover{
+    background-color: orange;
 }
