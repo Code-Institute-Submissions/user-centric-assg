@@ -82,12 +82,6 @@
 }
 .aboutus,.card-deck,.card{
     border: 1px solid #000000;
-    column-count:2;
-    column-gap: 40px;
-    column-rule-style: solid;
-    column-rule-width: 1px;
-    column-rule-color: black;
-    column-width: 100px;
 }
 .contactus{
     margin:10px 10px 10px 10px;
