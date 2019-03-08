@@ -1,6 +1,9 @@
 body{
     background-color: #e0dfd5
 }
+.navbar{
+    background-color:white;
+}
 .hero {
     /* Sizing */
     width: 100vw;
