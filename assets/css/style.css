@@ -78,14 +78,16 @@ body{
 .card-title{
     text-transform: uppercase;
 }
-.nav-item{
+.nav-link{
     font-family: 'Roboto', sans-serif;
     font-size:20px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color:#026670;
 }
 .aboutus,.card-deck,.card{
     border-radius: 25px;
     border: 1px solid #000000;
+    color:#4D6D9A;
 }
 .contactus{
     margin:10px 10px 10px 10px;
@@ -97,5 +99,7 @@ body{
      margin:20px 20px 20px 20px;
 }
 .btn:hover{
-    background-color: orange;
+    background-color: #9FEDD7;
 }
+
+    
