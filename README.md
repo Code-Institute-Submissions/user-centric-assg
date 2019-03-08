@@ -10,9 +10,6 @@ This is my assignment for User Centric module. I am building a frontend-only web
 2. CSS
 3. Bootstrap
 
-# Demo
-A live demo can be found at [here](https://ide.c9.io/chanhelmy/user-centric-assg)
-
 # Testing
 This site was tested across multiple browsers and on multiple mobile devices to ensure compatibility and responsiveness.
 
