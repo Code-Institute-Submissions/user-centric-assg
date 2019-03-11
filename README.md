@@ -18,7 +18,7 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 
 # Credits
 ## Content
-The about page was taken from [this wikipedia page](https://en.wikipedia.org/wiki/The_Monkees).
+The about page was taken from [this wikipedia page](https://en.wikipedia.org/wiki/The_Monkees). The booking page was taken from [this monkees page](https://www.monkees.com/about).
 
 ## Media
 The audio clips and video were taken from this [github respository](https://github.com/Code-Institute-Org/project-assets). Photos were taken from  https://www.pexels.com/, a stock image library and googling search images of The Monkees.
