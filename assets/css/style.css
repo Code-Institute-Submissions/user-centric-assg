@@ -107,4 +107,6 @@ body{
 .form-control,input[type=text]{
     width:300px;
 }
-    
+footer{
+    background-color: #f09d51;
+}    
