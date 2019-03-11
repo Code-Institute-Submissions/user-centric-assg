@@ -24,6 +24,6 @@ The about page was taken from [this wikipedia page](https://en.wikipedia.org/wik
 The audio clips and video were taken from this [github respository](https://github.com/Code-Institute-Org/project-assets). Photos were taken from  https://www.pexels.com/, a stock image library and googling search images of The Monkees.
 
 ## Acknowledgements
-The hero image on the home page was modeled after: https://codetheweb.blog/2017/12/07/fullscreen-image-hero/.
+The hero image on the home page was modeled after: https://codetheweb.blog/2017/12/07/fullscreen-image-hero/. The not selector was taken from : https://30-seconds.github.io/30-seconds-of-css/.
 
 ##### This is for educational use.
