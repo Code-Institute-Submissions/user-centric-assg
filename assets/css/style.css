@@ -110,10 +110,10 @@ body{
 footer{
     background-color: #f09d51;
 }
-.row {
+.row{
   display: flex;
   margin: 20px 20px 20px 20px;
 }
-.column {
+.column{
   flex: 50%;
 }
