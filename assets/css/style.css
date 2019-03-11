@@ -88,15 +88,15 @@ body{
     color:#026670;
 }
 .aboutus,.card-deck,.card{
-    border-radius: 25px;
-    border: 1px solid #000000;
+   
     color:#4D6D9A;
 }
 .contactus{
     margin:10px 10px 10px 10px;
 }
-.nav-item:hover{
-    border: 2px solid black;
+.nav-link:hover{
+    color:orange;
+    text-decoration:underline;
 }
 .media1{
      margin:20px 20px 20px 20px;
@@ -109,4 +109,11 @@ body{
 }
 footer{
     background-color: #f09d51;
-}    
+}
+.row {
+  display: flex;
+  margin: 20px 20px 20px 20px;
+}
+.column {
+  flex: 50%;
+}
