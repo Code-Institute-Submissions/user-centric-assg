@@ -4,6 +4,9 @@ body{
 .navbar,.nav{
     background-color:white;
 }
+.hero-inner{
+    background-color:purple;
+}
 .hero {
     /* Sizing */
     width: 100vw;
@@ -70,7 +73,7 @@ body{
 }
 .para1,.para2,.para3{
     margin:20px 20px 20px 20px;
-    line-height: 3;
+    line-height: 2;
     font-family: 'Roboto', sans-serif;
     font-size:20px;
     text-align: justify;
@@ -118,7 +121,11 @@ li:not(:last-child) {
     background-color: #9FEDD7;
 }
 footer{
+    padding-top: 30px;
     background-color: #f09d51;
+}
+.subscribe{
+    padding-top: 30px;
 }
 .row{
   display: flex;
